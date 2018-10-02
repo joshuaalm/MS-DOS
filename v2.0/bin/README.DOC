@@ -2,13 +2,13 @@
 
 
 The 2.0 Release of MSDOS includes five 5 1/4 double density single sided
-diskettes or three 8 iinch CP/M 80 format diskettes.
+diskettes or three 8 inch CP/M 80 format diskettes.
 
 The software/documentation on the five inch diskettes is arranged
 as follows:
 
 1.   DOS distribution diskette.  This diskette contains files which
-     should be distriibuted to all users.  This allows the DOS distri-
+     should be distributed to all users.  This allows the DOS distri-
      bution diskette to meet the requirements of users of high level
      language compilers as well as users running only applications.
      Many compilers marketed independently through the retail channel
@@ -28,13 +28,13 @@ as follows:
      may wish to customize for greater performance.  .OBJ files are also
      included for the FORMAT utility.
 
-4.   Skeltal BIOS and documentation diskette.  This diskette contains
-     the skeltal BIOS source code and the SYSINIT and SYSIMES object
+4.   Skeletal BIOS and documentation diskette.  This diskette contains
+     the skeletal BIOS source code and the SYSINIT and SYSIMES object
      modules which must be linked with your BIOS module.  The proper
      sequence for linking is BIOS - SYSINIT - SYSIMES.
      A profiler utiliity is also included on the diskette, but this
      is not intended for end-users.  This is distributed for use by
-     your development staff only and is not supported by Microsoft
+     your development staff only and is not supported by Microsoft.
      If you do decide to distribute it, it is at your own risk!
 
 
@@ -72,7 +72,7 @@ Here is what you need to do to MSDOS 2.0 to create a shipable product:
     drivers document.  Microsoft strongly recommends that machines
     incorporating integrated display devices with memory mapped video
     RAM implement some sort of terminal emulations through the use of
-    escape sequences.  The skeletal  BIOS includes a sample ANSI
+    escape sequences.  The skeletal BIOS includes a sample ANSI
     terminal driver.
 
 2.  Please refer to DOSPATCH.TXT for possible changes you might wish
@@ -82,7 +82,7 @@ Here is what you need to do to MSDOS 2.0 to create a shipable product:
     the DOS accordingly.  If you wish to serialize the DOS, this is
     described in DOSPATCH.TXT.  Please patch the editing template
     definitions.  Please note the addition of the Control-Z entry
-    at the beginning of the table.   Also note that the insert switches
+    at the beginning of the table.  Also note that the insert switches
     have now both been made to toggle.
 
 3.  Utilities.  FORMAT must be configured for each specific system.
@@ -174,4 +174,4 @@ At all times, the BIOS writer should be careful to preserve the state
 of the DOS - including the flags.  You should be also be cautioned that
 the MSDOS stack is not deep.  You should not count on more than one or
 two pushes of the registers.
-                                                                                   
+�����������������������������������������������������������������������������������
